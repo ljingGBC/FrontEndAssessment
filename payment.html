@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <link rel="stylesheet" href="payment.css">
+    </head>
+    <body>
+        <div>
+            <h1>PAYMENT</h1>
+            <form action="" method="get"> 
+                <p>1. Select your plan</p> 
+                <label><input name="plan" type="radio" value="" />BASIC </label> 
+                <label><input name="plan" type="radio" value="" />ADVANCED </label> 
+                <label><input name="plan" type="radio" value="" />PRO </label>  
+            </form> 
+            <div class="billing">
+                <p>2. Billing Information</p> 
+                <form action="" method="post">
+                  <label id="lbName">Name</label>  
+                  <br/> 
+                  <input type="text" class="class1" placeholder="Full Name"/> 
+                  <br/>
+                  <br/>
+                  <label>Billing Address</label> 
+                  <br/>
+                  <input class="class1" type="text" placeholder="1234 Main St."/> 
+                  <br/>
+                  <br/>
+                  <label id="lbCity">City</label>
+                  <label id="lbpost">Postcode</label>
+                  <br/>
+                  <input type="text" id="city"/>
+                  <input type="text" id="postalCode"/> 
+                  <br/>  
+                  <br/> 
+                  <label id="lbCountry">Country</label>
+                  <br/> 
+                  <select class="class1">
+                    <option>Choose...</option>
+                    <option>Afghanistan</option>
+                    <option>Angola</option>
+                    <option>Armenia</option>
+                    <option>Azerbaijan</option>
+                    <option>Canada</option>
+                    <option>China</option>
+                    <option>France</option>
+                    <option>Germany</option>
+                    <option>Japan</option>
+                    <option>United States</option>
+                  </select>
+
+                  <br/>
+                  <br/>
+                  <input type="checkbox" name="checkbox" id="agree" />By continuing, I acknowledge that I have<br> 
+                  read to the Terms of Service & Privacy Policy. 
+                  <br/>
+                  <br/>
+                  <input type="submit" value="Download" id="submit"/> <br/>
+                  <br/>
+                </form>
+            </div>
+
+            <div class="card">
+              <p>3. Credit Card Information</p> 
+              <form action="" method="post">
+                <label id="lbCarholderName">CARDHOLDER'S NAME</label>  
+                <br/> 
+                <input type="text" class="class1" placeholder="Full Name"/> 
+                <br/>
+                <br/>
+                <label>CARD NUMBER</label> 
+                <br/>
+                <input class="class1" type="text" placeholder="4444 5555 6666 7777 88"/> 
+                <br/>
+                <br/>
+                <label id="lbMonth">EXPIRY MONTH</label>
+                <label id="lbYear">EXPIRY YEAR</label>
+                <br/>
+                <select id="month">
+                  <option>Choose...</option>
+                  <option>01</option>
+                  <option>02</option>
+                  <option>03</option>
+                  <option>04</option>
+                  <option>05</option>
+                  <option>06</option>
+                  <option>07</option>
+                  <option>08</option>
+                  <option>09</option>
+                  <option>10</option>
+                  <option>11</option>
+                  <option>12</option>
+                </select>
+                <select id="year">
+                  <option>Choose...</option>
+                  <option>2017</option>
+                  <option>2018</option>
+                  <option>2019</option>
+                  <option>2020</option>
+                  <option>2021</option>
+                  <option>2022</option>
+                  <option>2023</option>
+                  <option>2024</option>
+                  <option>2025</option>
+                </select>
+                <br/>  
+                <br/> 
+                <label id="lbCVV">CVV</label>
+                <br/>
+                <input type="text" class="class1"/> 
+                <br/>
+                <br/>
+              </form>
+              <footer>2019 &copy All Rights Reserved | Speer Technologies Incorporated</footer>
+            </div>
+            
+        </div>
+
+        
+    </body>
+</html>
